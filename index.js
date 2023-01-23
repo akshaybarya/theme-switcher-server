@@ -13,8 +13,7 @@ const theme = {
 
 const themeGroww = {
   primaryClr: '#00D09C',
-  secondaryClr: '#00D09C',
-  primaryBg: '#E9E9E9'
+  secondaryBg: '#00D09C'
 };
 
 const theme2 = { 
