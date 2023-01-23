@@ -11,6 +11,12 @@ const theme = {
   '--primaryBg': '#121212'
 };
 
+const themeGroww = {
+  primaryClr: '#00D09C',
+  secondaryClr: '#00D09C',
+  primaryBg: '#E9E9E9'
+};
+
 const theme2 = { 
   '--primaryClr': '#F67280',
   '--secondaryClr': '#F8B195',
@@ -23,6 +29,10 @@ app.get('/', (_req, res) => {
 
 app.get('/2', (_req, res) => {
   res.send(theme2);
+});
+
+app.get('/groww-theme', (_req, res) => {
+  res.status(200).send(themeGroww);
 });
 
 app.listen(process.env.PORT ||4000, () => {
